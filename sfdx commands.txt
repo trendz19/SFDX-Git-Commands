@@ -1,0 +1,37 @@
+The version number has the format [majorNumber.minorNumber.patchNumber] (for example, 2.1.3)
+
+SalesForce Developer eXperience -(SFDX)
+
+sfdx version (use this command to see the CLI Version)
+
+sfdx update (use this command to update salesforce CLI)
+
+sfdx force project create -n MyProject (use this command to create new project)
+
+sfdx force project create --name DemoProject01 --manifest (use this command to create new project with manifest)
+
+sfdx org list --all (use this command to list all orgs)
+
+sfdx force config set target-dev-hub aliasname (use this command to set a DEFAULT dev hub org)
+
+sfdx force org create --setdefaultusername -f config/project-scratch-def.json --setalias MyScratchOrg -v DevHub (use this command to create scratch org)
+
+sfdx force org open -o alias (use this command to open scratch org)
+
+sfdx auth logout -u me@my.org (use this command to Log out from authorized orgs)
+
+sfdx auth web login -d -a DevHub (use this command to Log In to the Dev Hub)
+
+sfdx force source retrieve --manifest manifest/package.xml (use this command to Retrieve Code In Local Project)
+
+sfdx project deploy start --targetusername MyScratchOrg (use this command to Push Source Metadata to Scratch Org)
+
+sfdx force source pull --targetusername MyScratchOrg (use this command to Pull metadata changes from Scratch Org)
+
+sf org display user -o MyScratchOrg (use this command to display username, access token and Password for Scratch org)
+
+
+
+
+
+

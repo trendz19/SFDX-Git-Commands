@@ -1,0 +1,64 @@
+git --version (use this command to check git version)
+
+git config --global user.name "your name" (use this to configure name)
+
+git config --global user.email "your email" (use this to configure email)
+
+git config --list (use this to know the configured list)
+
+git clone <link> (use this command to clone a repository)
+
+git status (use this command to display the status of the code)
+
+ls ( use this command to list files)
+
+ls -a (use this command to list all files including hidden files)
+
+cd <foldername> ( use this to change directory)
+
+cd .. ( use this to comeout of the directory)
+
+git add filename (use this command to stage single file)
+
+git add . (use this command to stage all files at once)
+
+git commit -m "your meaningfull message" (use this command to commit the changes)
+
+git push origin main (use this command to push changes from local repo to the remote repo)
+
+git init  (use this command to create a new git repo)
+
+git remote add origin <link> (use this command to add local repo to remote )
+
+git remote -v (to verify remote)
+
+git branch  (use this command to check branch)
+
+git branch -M main (use this command to rename branch)
+
+git checkout <branch name> (to navigate branch name)
+
+git checkout  -b <new branch name> (to create new branch)
+
+git branch -d <branch name> (to delete branch)
+
+git diff <branch name> (to compare commits, branches, files & more)
+
+git merge <branch name> (to merge 2 branches)
+
+git pull origin main (use this command to pull the changes from remote repo to local repo)
+
+git reset <file name>  (use this command to undo staged changes for single file)
+
+git reset (use this command to undo staged changes for multiple files)
+
+git reset HEAD~1 (use this command for commited changes)
+
+git log (to check history)
+
+git reset <commit hash>
+
+git reset --hard <commit hash>
+
+press Q to quit
+
